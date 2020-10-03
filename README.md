@@ -27,6 +27,9 @@ npm start
 And open <http://localhost:3000> in your browser,
 the page will reload automatically when you make changes.
 
+This project's figma link is public for everyone!
+[Click here!](https://www.figma.com/file/wp6JF8cgj5UlyjIuiCrS6u/Pets-Project?node-id=188%3A0)
+
 ## Available Scripts
 
 ### `npm test`
