@@ -12,13 +12,13 @@ export default function Header() {
           <Nav.Link className="item-logo" href="/home">Pettnaut</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="item" eventKey="link-1">Acerca de</Nav.Link>
+          <Nav.Link eventKey="link-1">Acerca de</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="item" eventKey="link-2">Colaborar</Nav.Link>
+          <Nav.Link eventKey="link-2">Colaborar</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="item" eventKey="link-2">Sponsors</Nav.Link>
+          <Nav.Link eventKey="link-2">Sponsors</Nav.Link>
         </Nav.Item>
       </Nav>
     )
