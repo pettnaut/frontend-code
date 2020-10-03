@@ -1,8 +1,21 @@
+@font-face {
+  font-family: "Comfortaa Regular";
+  src: url("./assests/fonts/Comfortaa-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comfortaa Bold";
+  src: url("./assests/fonts//Comfortaa-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comfortaa light";
+  src: url("./assests/fonts/Comfortaa-Light.ttf") format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Comfortaa Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
