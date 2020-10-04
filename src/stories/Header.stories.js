@@ -1,6 +1,8 @@
 import React from 'react';
-
+import "bootstrap/dist/css/bootstrap.css";
+import '../components/header/header.css';
 import Header from '../components/header/Header';
+
 
 export default {
   title: 'Example/Header',
