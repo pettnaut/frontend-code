@@ -23,34 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-/*  Styling for Footer Component*/
-.footer{
-  background-color: #f8c829da;
-  margin:0px auto;
-  padding: 20px 0px 20px 0px;
-  color: black;
-}
-.footer-links{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
-}
 
-.footer-links a{
-  color: black;
-  
-}
-.footer-btn{
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-.text-center btn{
-  border: 1px solid black;
-  border-radius: 50%;
-}
-/*Styling done for footer section*/
 .App-link {
   color: #61dafb;
 }
