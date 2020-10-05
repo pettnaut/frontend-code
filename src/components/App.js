@@ -1,11 +1,21 @@
-import React from 'react';
-import Home from './screens/Home'
+import React from "react";
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+
+import Home from './screens/Home';
+import Layout from './layout/Layout';
+import NotFound from './notfound/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/404" component={NotFound} />
+          <Redirect from="*" to="/404/" />
+        </Switch>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
