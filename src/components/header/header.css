@@ -1,18 +1,19 @@
 .header {
-    background-color: blueviolet;   
+    background-color: #5D34AF;   
     font-family: 'Comfortaa Regular'; 
     border-bottom:2px solid;
     border-image: conic-gradient(aqua, aqua, aqua, magenta, magenta, magenta, magenta) 1;
-
 }
 
 .nav-link {
-    padding: 1.5rem 1rem !important;
     color: #ffffff;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
 }
 
 .item-logo {
-    font-size: large;
+    font-size: x-large;
     font-family: 'Comfortaa Bold'; 
 }
 
