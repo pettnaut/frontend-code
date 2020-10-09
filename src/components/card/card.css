@@ -1,0 +1,8 @@
+.card {
+  width: 18rem;
+  font-family: "Comfortaa";
+}
+
+.card .card-title {
+  font-weight: bold;
+}
