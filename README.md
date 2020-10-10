@@ -3,7 +3,7 @@
 Let's make the world a better place for our four legged friends 🐕.
 
 This repo contains the frontend code from the project.
-https://img.shields.io/badge/chat-on%20element-green
+
 This project's Figma link is public for everyone!
 [Click here!](https://www.figma.com/file/wp6JF8cgj5UlyjIuiCrS6u/Pets-Project?node-id=188%3A0)
 <p align="left">  
