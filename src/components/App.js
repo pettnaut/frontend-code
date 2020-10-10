@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import Home from './screens/Home';
+import Home from './screens/home/Home';
 import Layout from './layout/Layout';
 import NotFound from './notfound/NotFound';
 
