@@ -4,6 +4,7 @@
     margin:0px auto;
     padding: 20px 0px 20px 0px;
     color: black;
+    width: 100%;
   }
   .footer-links{
     display:flex;
@@ -12,16 +13,16 @@
     margin-bottom: 25px;
     flex-wrap: wrap;
   }
-  
+
   .footer-links a{
     color: black;
-    
+
   }
   .footer-btn{
     margin-top: 15px;
     margin-bottom: 20px;
   }
-  
+
   .text-center btn{
     border: 1px solid black;
     border-radius: 50%;

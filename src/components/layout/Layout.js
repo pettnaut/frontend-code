@@ -1,19 +1,22 @@
 import React from 'react';
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
+import './layout.css'
 
 /**
  * Layout component to add the header and the footer into all pages
- * @param {*} props 
+ * @param {*} props
  */
 function Layout(props) {
-  
+
   return (
-    <React.Fragment>
+    <div className='layout'>
       <Header />
-      {props.children}
+      <main className="main-content">
+        {props.children}
+      </main>
       <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 
